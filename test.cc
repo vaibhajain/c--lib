@@ -1,7 +1,11 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
+/*
+* Calculate n c r
+* Input n and r 
+* output: ncr result
+*/
 int foo(int n,int r)
 {
      if(n==r) return 1;
@@ -9,6 +13,10 @@ int foo(int n,int r)
      return foo(n-1,r) + foo(n-1,r-1);
 }
 
+
+/*
+* Driver function
+*/
 int main() {
     int m, t;
 	cin >> m;
