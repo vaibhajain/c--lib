@@ -2,6 +2,9 @@
 
 using namespace std;
 
+/*
+* Process a string and remove -, ( and ) from it.
+*/
 string process(string s){
 	string temp;
 	bool toggle = false;
@@ -19,6 +22,9 @@ string process(string s){
 	}
 }
 
+/*
+* Drive function
+*/
 int main(){
 	int t; cin >> t;
 	while(t--){
