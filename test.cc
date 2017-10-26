@@ -22,6 +22,7 @@ int main() {
 	sort(a.begin(), a.end());
 	for(int i = 0; i < m; i++){
 	cout << a[i] << " " ;
+	return 0;
 }
 }
 
