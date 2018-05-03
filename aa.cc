@@ -7,6 +7,7 @@ using namespace std;
 */
 string process(string s){
 	string temp;
+  int a;
 	bool toggle = false;
 	vector<int> a;
 	for(int i = 0;i < s.size(); i++){
